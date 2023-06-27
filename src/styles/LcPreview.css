@@ -1,0 +1,183 @@
+@media print {
+  #lc__doc {
+    min-width: 42rem;
+    max-width: 42rem;
+    margin: 0;
+  }
+
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lc__Signatures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .lc__clerk {
+    display: flex;
+    align-items: end;
+  }
+  .lc__Signatures > div {
+    text-align: center;
+  }
+  .btn,
+  button {
+    display: none;
+  }
+  a {
+    display: none;
+  }
+}
+
+.lc__container {
+  margin-block: 2%;
+  max-width: 800px;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lc__doc {
+  min-width: 42rem;
+  max-width: 42rem;
+  margin: auto;
+  margin-left: 3rem;
+  position: relative;
+}
+.watermark {
+  position: absolute;
+  top: 11%;
+  left: 2%;
+  width: 20%;
+}
+.lc__Border1 {
+  padding: 0.2em;
+  border: solid black;
+}
+.lc__Border2 {
+  padding: 0.6em;
+  border: solid black thin;
+}
+.lc__heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lc__heading * {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+}
+.lc__header {
+  font-size: x-large;
+  font-weight: 900;
+  margin-bottom: 8px !important;
+}
+
+.tabSpace {
+  padding-left: 1rem;
+}
+.lc__dash {
+  border-top: 0.1rem solid black;
+}
+.titleSec {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lc__title {
+  font-size: x-large;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: ui sans-serif;
+  margin-bottom: 6px;
+}
+.lc__RegNo {
+  font-family: fantasy;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+}
+.warning {
+  font-size: x-small;
+  line-height: 1.2;
+  text-align: center;
+}
+.details {
+  margin-top: 6px;
+}
+.details > li {
+  padding: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info {
+  padding-left: 1em;
+  font-size: medium;
+}
+.info__details {
+  font-size: medium;
+  font-weight: bold;
+}
+.long_info {
+  height: 100%;
+  min-width: max-content;
+}
+.grid_info {
+  display: grid !important;
+  gap: 2px;
+  grid-template-columns: 1fr 5fr;
+}
+
+.dashDown {
+  margin-left: 22em;
+  border-bottom: 0.1rem solid black;
+}
+.dob > .nogap {
+  margin: 0;
+}
+.EmptySquare {
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0.2rem;
+  border: 0.1rem solid black;
+  margin-right: 0.5rem;
+}
+.lc__date {
+  padding-top: 10px;
+}
+
+.date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.lc__Signatures {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding-inline-start: inherit;
+  justify-content: space-between;
+  align-items: center;
+}
+.lc__clerk {
+  display: flex;
+  align-items: end;
+}
+.lc__Signatures > div {
+  text-align: center;
+}
+
+.lc__logo {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 150px;
+}

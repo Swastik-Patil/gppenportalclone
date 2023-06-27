@@ -1,0 +1,52 @@
+td {
+  padding: 10px !important;
+}
+input,
+select,
+textarea {
+  height: 2.5rem;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+select {
+  width: 75%;
+}
+.data {
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  opacity: 0.6;
+  max-height: 25px;
+  max-width: 25px;
+  cursor: pointer;
+}
+.hint {
+  min-width: max-content;
+  font-size: 0.8rem;
+  opacity: 0;
+  background-color: gold;
+  padding: 0.4rem;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  border-radius: 10px;
+}
+.current {
+  position: relative;
+}
+
+.edit:hover ~ .hint {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.rel {
+  position: relative;
+}
+
+.hintme:hover ~ .hint {
+  transition: opacity 0.2s ease-in-out;
+  opacity: 1;
+}
