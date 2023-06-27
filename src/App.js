@@ -2,7 +2,7 @@ import React from "react";
 import AuthContextProvider from "./contexts/AuthContext";
 import AppRouter from "./components/AppRouter";
 
-function App(props) {
+function App() {
   return (
     <>
       <AuthContextProvider>
