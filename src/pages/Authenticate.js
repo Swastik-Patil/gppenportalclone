@@ -27,12 +27,13 @@ function Authenticate() {
   const mounted = useMounted();
 
   useEffect(() => {
-    setTimeout(() => {
+    const timeoutId = setTimeout(() => {
       setLoading(false);
     }, 2000);
     regmounted.current = true;
     return () => {
       regmounted.current = false;
+      clearTimeout(timeoutId);
     };
   }, []);
 

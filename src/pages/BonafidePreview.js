@@ -41,6 +41,8 @@ export default function BonafidePreview() {
             case "IC":
               setClerkSign(data.IC.sign);
               break;
+            default:
+              break;
           }
           setLoading(false);
         }
@@ -231,7 +233,7 @@ export default function BonafidePreview() {
                         src={stamp}
                         className="Stamp"
                         alt="stamp"
-                        srcset=""
+                        srcSet=""
                       />
                     </div>
                     <div>

@@ -6,6 +6,7 @@ function AdminHome() {
   useEffect(() => {
     window.localStorage.setItem("dashboardHead", "Over All Statistics");
     updateDashbaordDetails("all");
+    window.location.href = "/dashboard";
   }, []);
   return (
     <div
