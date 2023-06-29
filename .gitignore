@@ -12,6 +12,7 @@ firebase-hosting-pull-request.yml
 .vscode
 .github
 .firebase
+firebase.json
 
 # testing
 /coverage
